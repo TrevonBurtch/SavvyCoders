@@ -1,28 +1,39 @@
+*{
+    border: solid 10px red;
+    /* margin:0; */
+    padding-left:50px;
+    padding-right:25px;
+}
 h1 {
-    background-color: aqua;
+    background-color: black;
     color: tomato;
+    
 
 }
 h2 {
     background-color:teal;
-    color: thistle;
+    color: black;
 }
 h3{
     background-color: blue;
     color:chocolate;
 }
 p {
-    background-color: aqua;
+    background-color: black;
     color: gold
 }
 ul{
-    color: chartreuse
+    color: black
 }
 li{
     color: hotpink
 }
 .aquify{
     background-color: aqua;
+}
+.container{
+    marigin: 10px auto;
+    width: 30px;
 }
 .tomatify{
     background-color: tomato;
