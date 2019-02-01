@@ -1,0 +1,35 @@
+h1 {
+    background-color: aqua;
+    color: tomato;
+
+}
+h2 {
+    background-color:teal;
+    color: thistle;
+}
+h3{
+    background-color: blue;
+    color:chocolate;
+}
+p {
+    background-color: aqua;
+    color: gold
+}
+ul{
+    color: chartreuse
+}
+li{
+    color: hotpink
+}
+.aquify{
+    background-color: aqua;
+}
+.tomatify{
+    background-color: tomato;
+}
+.greenify{
+    background-color: green;
+}
+#content{
+   background-color: red; 
+}
