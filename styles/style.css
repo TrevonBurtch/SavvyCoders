@@ -1,39 +1,71 @@
 *{
-    border: solid 10px red;
     /* margin:0; */
-    padding-left:50px;
-    padding-right:25px;
+    /* padding-left:50px;
+    padding-right:25px;    border: solid 10px red; */
+
 }
 h1 {
-    background-color: black;
-    color: tomato;
-    
+    background-color: red;
+    color: black;
+
+}
+html{
+    background-color:red;
+    color:black;
 
 }
 h2 {
-    background-color:teal;
+    background-color:red;
     color: black;
 }
 h3{
-    background-color: blue;
-    color:chocolate;
+    background-color: red;
+    color:black;
 }
+
 p {
-    background-color: black;
-    color: gold
+    background-color: red;
+    color: black;
 }
 ul{
-    color: black
+    color: chartreuse
 }
 li{
-    color: hotpink
+    color: red
 }
+.aquify{
+    background-color: aqua;
+}
+.tomatify{
+    background-color: tomato;
+}
+.greenify{
+    background-color: green;
+}
+#content{
+   background-color: red; 
+}
+}
+ul li:first-child {
+    margin-right: 50px;
+}
+ul li:last-child {
+    background: black;
+}
+figure ~ 0 {
+    background: :red
+}
+figure + 0 {
+    background: red;
+}
+ul > li {
+
 .aquify{
     background-color: aqua;
 }
 .container{
     marigin: 10px auto;
-    width: 30px;
+    width: 900px;
 }
 .tomatify{
     background-color: tomato;
