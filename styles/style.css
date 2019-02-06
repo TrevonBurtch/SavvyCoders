@@ -1,77 +1,124 @@
-*{
+* {
     /* margin:0; */
     /* padding-left:50px;
     padding-right:25px;    border: solid 10px red; */
-
 }
+
 h1 {
     background-color: red;
     color: black;
-
 }
-html{
-    background-color:red;
-    color:black;
 
-}
-h2 {
-    background-color:red;
+html {
+    background-color: red;
     color: black;
 }
-h3{
+
+h2 {
     background-color: red;
-    color:black;
+    color: black;
+}
+
+h3 {
+    background-color: red;
+    color: black;
 }
 
 p {
     background-color: red;
     color: black;
 }
-ul{
+
+ul {
     color: chartreuse
 }
-li{
+
+li {
     color: red
 }
-.aquify{
+
+.aquify {
     background-color: aqua;
 }
-.tomatify{
+
+.tomatify {
     background-color: tomato;
 }
-.greenify{
+
+.greenify {
     background-color: green;
 }
-#content{
-   background-color: red; 
+
+#content {
+    background-color: red;
 }
-}
+
 ul li:first-child {
     margin-right: 50px;
 }
+
 ul li:last-child {
-    background: black;
-}
-figure ~ 0 {
-    background: :red
-}
-figure + 0 {
     background: red;
 }
 
-.aquify{
+.aquify {
     background-color: aqua;
 }
-.container{
-    marigin: 10px auto;
+
+.container {
+    margin: 10px auto;
     width: 900px;
 }
-.tomatify{
+
+.tomatify {
     background-color: tomato;
 }
-.greenify{
+
+.greenify {
     background-color: green;
 }
-#content{
-   background-color: red; 
+
+#navigation {
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    display: inline;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
+
+#navigation>ul>li {
+    display: inline;
+}
+
+#content {
+    background-color: red;
+}
+
+#header {
+    background-color: black;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+li:hover {
+    background: blue;
+}
+#navigation > ul > li {
+    position: relative;
+}
+
+#navigation > ul > li:hover > ul {
+    display: block;
+
+}
+
+#navigation > ul > li > ul {
+    background-color: red;
+    display: none;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+}
+
+
