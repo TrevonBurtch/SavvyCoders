@@ -7,11 +7,14 @@
 h1 {
     background-color: red;
     color: black;
+    
 }
 
 html {
     background-color: red;
     color: black;
+    font-family: 'Gothic A1', sans-serif;
+
 }
 
 h2 {
@@ -109,6 +112,7 @@ ul li:last-child {
     background-color: red;
     grid-area: header;
     padding: 15px;
+
 }
 
 #footer {
