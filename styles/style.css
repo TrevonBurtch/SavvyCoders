@@ -103,6 +103,9 @@ ul li:last-child {
     display: inline;
 }
 
+#navigation>ul>li:nth-child(2){
+    color:black;    
+}
 #content {
     background-color: red;
     grid-area: content;
@@ -136,7 +139,7 @@ li:hover {
 }
 
 #navigation>ul>li>ul {
-    background-color: red;
+    background-color: black;
     display: none;
     left: 0px;
     position: absolute;
@@ -156,5 +159,8 @@ li:hover {
     }
     #navigation>ul>li {
         display: block;
+    }
+    .fab{
+        color: blue;
     }
 }

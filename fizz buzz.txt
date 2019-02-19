@@ -1,0 +1,27 @@
+/*Write a function that takes in a number from a user prompt.
+> If the number is a multiple of 3, print "Fizz" instead of the number.
+> If the number is a multiple of 5, print "Buzz" instead of the number.
+> If the number is a multiple of both 3 and 5, print "FizzBuzz" instead of the number.
+> If the number is none of the above, simply print the number. /*
+
+var FizzBuzz = function(){
+    var num = prompt("Please enter a number!");
+    else if(num % 3 && num % 5 === 0){
+    console.log("fizzBuzz");
+    }
+    if )num % 3 === 0)
+    console.log("Fuzz");
+}
+    if (num % 5 === 0) 
+    console.log("buzz");
+}
+else {
+    console.log(num);
+}
+}
+
+
+}
+}
+
+fizzBuzz();
