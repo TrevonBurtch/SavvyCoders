@@ -1,12 +1,11 @@
-export default function nameChecker(){
-    function nameChecker(){
-        var name = prompt('Please enter your name!');
+export default
+function nameChecker(){
+    var name = prompt('Please enter your name!');
     
-        if(name === ''){
-            nameChecker();
-        }
-        else{
-            document.querySelector('h1').textContent = `Hello, ${name}`;
-        }
+    if(name === ''){
+        nameChecker();
+    }
+    else{
+        document.querySelector('h1').textContent = `Hello, ${name}`;
     }
 }
